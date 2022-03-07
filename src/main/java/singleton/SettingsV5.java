@@ -11,6 +11,11 @@ public class SettingsV5 {
     public static SettingsV5 getInstance() {
         return SettingsHolder.INSTANCE;
     }
+
+    // 역직렬화 대응 방안
+    protected Object readResolve() {
+        return getInstance();
+    }
 }
 
 /**

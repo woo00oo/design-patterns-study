@@ -1,6 +1,8 @@
 package singleton;
 
-public class SettingsV1 {
+import java.io.Serializable;
+
+public class SettingsV1 implements Serializable {
 
     private static SettingsV1 instance;
 
