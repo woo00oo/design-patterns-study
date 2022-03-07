@@ -4,9 +4,8 @@ public class App {
 
     public static void main(String[] args) {
 
-        Settings settings = Settings.getInstance();
-        Settings settings1 = Settings.getInstance();
+        SettingsV1 settingsV1 = SettingsV1.getInstance();
 
-        System.out.println(settings == settings1);
+        System.out.println(settingsV1 == SettingsV1.getInstance());
     }
 }
