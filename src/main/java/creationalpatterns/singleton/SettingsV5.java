@@ -1,4 +1,4 @@
-package singleton;
+package creationalpatterns.singleton;
 
 public class SettingsV5 {
 
